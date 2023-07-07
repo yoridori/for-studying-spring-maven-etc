@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
     private final SampleService service;
-    SampleController(SampleService service){
+    public SampleController(SampleService service){
         this.service = service;
     }
 
